@@ -1,5 +1,18 @@
-header, .project:not(:last-child) {
+header {
   border-bottom: 1px solid #ccc;
+  background-color: #146C94;
+}
+
+body {
+  background-color: #AFD3E2;
+}
+
+.project {
+  border: solid #146C94;
+}
+
+.title-name, .login-button, .dashboard {
+  color: #F6F1F1;
 }
 
 .no-button {
@@ -7,18 +20,27 @@ header, .project:not(:last-child) {
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #1b89bc;
+  color: #F6F1F1;
   text-decoration: none;
   font-size: 100%;
 }
 
 .no-button:hover {
-  color: #065b83;
+  color: #19A7CE;
   text-decoration: underline;
 }
 
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
+.title-name:hover {
+  color: #19A7CE;
+  text-decoration: underline;
+}
+
+.login-button:hover {
+  color: #19A7CE;
+  text-decoration: underline;
+}
+
+.dashboard:hover {
+  color: #19A7CE;
+  text-decoration: underline;
 }
